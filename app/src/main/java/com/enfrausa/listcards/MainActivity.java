@@ -27,18 +27,21 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.rv_list);
         List<item> mlist = new ArrayList<>();
 
-        mlist.add(new item(R.drawable.for_profile_a,"Anne",R.drawable.profile_a,2500));
-        mlist.add(new item(R.drawable.for_profile_b,"Yesha",R.drawable.profile_b,1655));
-        mlist.add(new item(R.drawable.for_profile_c,"Ashley",R.drawable.profile_c,2365));
-        mlist.add(new item(R.drawable.for_profile_a,"Lauren",R.drawable.profile_a,856));
-        mlist.add(new item(R.drawable.for_profile_b,"Gia",R.drawable.profile_b,1487));
-        mlist.add(new item(R.drawable.for_profile_c,"Heather",R.drawable.profile_c,2986));
-        mlist.add(new item(R.drawable.for_profile_a,"Naomi",R.drawable.profile_a,2500));
-        mlist.add(new item(R.drawable.for_profile_b,"Anne",R.drawable.profile_b,2500));
-        mlist.add(new item(R.drawable.for_profile_c,"Kiesha",R.drawable.profile_c,2500));
-        mlist.add(new item(R.drawable.for_profile_a,"Lea",R.drawable.profile_a,2500));
-        mlist.add(new item(R.drawable.for_profile_b,"Andrea",R.drawable.profile_b,2500));
-        mlist.add(new item(R.drawable.for_profile_c,"Jose",R.drawable.profile_c,2500));
+        mlist.add(new item(R.drawable.ls_a,"Yesha",R.drawable.profile_b,1655));
+        mlist.add(new item(R.drawable.ls_b,"Ashley",R.drawable.profile_c,2365));
+        mlist.add(new item(R.drawable.ls_c,"Lauren",R.drawable.profile_a,856));
+        mlist.add(new item(R.drawable.ls_d,"Yesha",R.drawable.profile_b,1655));
+        mlist.add(new item(R.drawable.ls_e,"Ashley",R.drawable.profile_c,2365));
+        mlist.add(new item(R.drawable.ls_f,"Lauren",R.drawable.profile_a,856));
+        mlist.add(new item(R.drawable.ls_g,"Yesha",R.drawable.profile_b,1655));
+        mlist.add(new item(R.drawable.ls_a,"Yesha",R.drawable.profile_b,1655));
+        mlist.add(new item(R.drawable.ls_b,"Ashley",R.drawable.profile_c,2365));
+        mlist.add(new item(R.drawable.ls_c,"Lauren",R.drawable.profile_a,856));
+        mlist.add(new item(R.drawable.ls_d,"Yesha",R.drawable.profile_b,1655));
+        mlist.add(new item(R.drawable.ls_e,"Ashley",R.drawable.profile_c,2365));
+        mlist.add(new item(R.drawable.ls_f,"Lauren",R.drawable.profile_a,856));
+        mlist.add(new item(R.drawable.ls_g,"Yesha",R.drawable.profile_b,1655));
+
 
         Adapter adapter = new Adapter(this, mlist);
 
